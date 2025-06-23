@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { ProductsRepository } from "./products.repository";
+import { ProductsRepository } from "../Repository/products.repository"; 
 
 interface DeleteProductServiceRequest {
   id: string;
