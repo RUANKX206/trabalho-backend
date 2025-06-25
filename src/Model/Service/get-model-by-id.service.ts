@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { ModelsRepository } from "../Repository/models.repository";
+import { ModelsRepository } from "../repository/models.repository";
 
 export interface Model {
   id: string;

@@ -1,7 +1,7 @@
 import { Controller, Get, Param } from "@nestjs/common";
 import { GetModelByIdService
   
- } from "../Service/get-model-by-id.service"; 
+ } from "../service/get-model-by-id.service"; 
 @Controller('/models/:id')
 export class GetModelByIdController {
   constructor(private getModelById: GetModelByIdService) {}
